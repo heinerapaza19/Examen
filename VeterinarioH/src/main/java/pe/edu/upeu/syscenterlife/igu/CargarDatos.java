@@ -2,12 +2,12 @@ package pe.edu.upeu.syscenterlife.igu;
 
 import javax.swing.JDialog;
 import javax.swing.JOptionPane;
-//import pe.edu.upeu.syscenterlife.logica.Controladora;
+import pe.edu.upeu.syscenterlife.logica.Controladora;
 
 
 
 public class CargarDatos extends javax.swing.JFrame {
-  //  Controladora control = new Controladora();
+   Controladora control = new Controladora();
 
     public CargarDatos() {
         initComponents();
@@ -274,8 +274,8 @@ public class CargarDatos extends javax.swing.JFrame {
         String nroCelular = txtNroCelular.getText();
         String tipoMasco = txtTipoMascota.getText();
         
-         /*control.guardar(nombreMasco, raza, color, observaciones, alergico,
-         atenEsp, nombreDuenio,nroCelular, tipoMasco);*/
+         control.guardar(nombreMasco, raza, color, observaciones, alergico,
+         atenEsp, nombreDuenio,nroCelular, tipoMasco);
          
          JOptionPane optionPane = new JOptionPane("SE guardó correctamente");
          optionPane.setMessageType(JOptionPane.INFORMATION_MESSAGE);

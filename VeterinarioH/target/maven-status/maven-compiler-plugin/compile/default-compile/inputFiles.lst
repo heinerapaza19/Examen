@@ -1,3 +1,12 @@
-D:\DESARROLLO\trabajes-en-clases-heiner\VeterinarioH\src\main\java\pe\edu\upeu\syscenterlife\igu\CargarDatos.java
-D:\DESARROLLO\trabajes-en-clases-heiner\VeterinarioH\src\main\java\pe\edu\upeu\syscenterlife\VeterinarioH.java
-D:\DESARROLLO\trabajes-en-clases-heiner\VeterinarioH\src\main\java\pe\edu\upeu\syscenterlife\igu\Principal.java
+D:\DESARROLLO\Examen\VeterinarioH\src\main\java\pe\edu\upeu\syscenterlife\persistencia\DuenioJpaController.java
+D:\DESARROLLO\Examen\VeterinarioH\src\main\java\pe\edu\upeu\syscenterlife\logica\Duenio.java
+D:\DESARROLLO\Examen\VeterinarioH\src\main\java\pe\edu\upeu\syscenterlife\persistencia\exceptions\IllegalOrphanException.java
+D:\DESARROLLO\Examen\VeterinarioH\src\main\java\pe\edu\upeu\syscenterlife\persistencia\ControladoraPersistencia.java
+D:\DESARROLLO\Examen\VeterinarioH\src\main\java\pe\edu\upeu\syscenterlife\persistencia\MascotaJpaController.java
+D:\DESARROLLO\Examen\VeterinarioH\src\main\java\pe\edu\upeu\syscenterlife\persistencia\exceptions\NonexistentEntityException.java
+D:\DESARROLLO\Examen\VeterinarioH\src\main\java\pe\edu\upeu\syscenterlife\logica\Controladora.java
+D:\DESARROLLO\Examen\VeterinarioH\src\main\java\pe\edu\upeu\syscenterlife\igu\CargarDatos.java
+D:\DESARROLLO\Examen\VeterinarioH\src\main\java\pe\edu\upeu\syscenterlife\persistencia\exceptions\PreexistingEntityException.java
+D:\DESARROLLO\Examen\VeterinarioH\src\main\java\pe\edu\upeu\syscenterlife\igu\Principal.java
+D:\DESARROLLO\Examen\VeterinarioH\src\main\java\pe\edu\upeu\syscenterlife\logica\Mascota.java
+D:\DESARROLLO\Examen\VeterinarioH\src\main\java\pe\edu\upeu\syscenterlife\VeterinarioH.java
