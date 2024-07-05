@@ -134,11 +134,11 @@
                                                       <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
                                                       <Group type="103" groupAlignment="0" attributes="0">
                                                           <Component id="cmbAtEsp" min="-2" pref="97" max="-2" attributes="0"/>
-                                                          <Component id="txtNombreDuenio" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                                                          <Component id="txtNombreDuenio" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
                                                       </Group>
                                                   </Group>
                                               </Group>
-                                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="103" groupAlignment="0" attributes="0">
@@ -164,6 +164,8 @@
                               <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
                               <Component id="btnLimpiar" min="-2" pref="163" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnCerrar" min="-2" pref="154" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
                               <Component id="btnGuardar" min="-2" pref="150" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
                           </Group>
@@ -232,6 +234,7 @@
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="btnLimpiar" alignment="3" min="-2" pref="58" max="-2" attributes="0"/>
                           <Component id="btnGuardar" alignment="3" min="-2" pref="58" max="-2" attributes="0"/>
+                          <Component id="btnCerrar" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                   </Group>
@@ -397,6 +400,20 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="txtTipoMascota">
+            </Component>
+            <Component class="javax.swing.JButton" name="btnCerrar">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="18" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/icons8_Delete_20px_7.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cerrar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCerrarActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>

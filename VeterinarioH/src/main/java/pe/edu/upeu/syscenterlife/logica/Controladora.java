@@ -12,10 +12,13 @@ public class Controladora {
             String observaciones, String alergico, String atenEsp, String nombreDuenio, 
             String nroCelular, String tipoMasco) {
         
+        //Creamos el dueño y asigna los valores
         Duenio duenio = new Duenio();
+        duenio.setId_duenio(0);
         duenio.setNombre(nombreDuenio);
         duenio.setCelDuenio(nroCelular);
         
+        //Creamos la mascota y asigna los valores
         Mascota masco = new Mascota();
         masco.setNombre(nombreMasco);
         masco.setRaza(raza);
