@@ -2,16 +2,24 @@ package pe.edu.upeu.syscenterlife.igu;
 
 import javax.swing.JDialog;
 import javax.swing.JOptionPane;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.stereotype.Component;
 import pe.edu.upeu.syscenterlife.logica.Controladora;
 
 
-
+@Component
 public class CargarDatos extends javax.swing.JFrame {
    Controladora control = new Controladora();
-
-    public CargarDatos() {
-        initComponents();
+    ConfigurableApplicationContext ctx;
+    
+   public CargarDatos() {
+       initComponents();
         
+        
+    }
+    public void setContexto(ConfigurableApplicationContext ctx) {
+         this.ctx = ctx;
+         
     }
 
     @SuppressWarnings("unchecked")
